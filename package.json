@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "EFAC XYZ server, using Express and GraphQL",
   "main": "index.js",
+  "private": true,
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/opleno/efac.xyz-server/issues"
   },
-  "homepage": "https://github.com/opleno/efac.xyz-server#readme"
+  "homepage": "https://github.com/opleno/efac.xyz-server#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
